@@ -1,5 +1,5 @@
 //Change this variable to the Link from your google sheet API
-var destination = 'https://script.google.com/macros/s/AKfycbyJozuAqmRTk-iCjabqeaVp3cwZbWZVAedjPeN2QOWnsJpsWXJZ_JytEMMibzItQVty/exec';
+var destination = 'INSERT YOUR WEB-APP LINK HERE';
 Macro.add("save", { // I use the motoslave way to declare a new macro
 handler: function(){ // this part seems common to all ways so it can't be wrong..?
 console.log("save");
