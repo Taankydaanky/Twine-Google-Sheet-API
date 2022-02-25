@@ -1,3 +1,10 @@
+English Version below
+
+# Twine-Google-Sheet-API
+Anleitung um eine Twine Story mit einem Google Spreadsheet zu koppeln. Erlaubt die Möglichkeit Variabeln online zu Synchronisieren zum lesen und schreiben. Mehrere Twine Stories können auf das gleiche Sheet zugreifen, was die Möglichkeit für Multiplayer eröffnet.
+
+# Vorbereitung für das Google Spreadsheet
+Erstelle ein Google Sheet und entferne alle Zeilen bis auf eine. Klicke oben in der Optionsleiste auf "Erweiterungen/Apps Script" und kopiere den Inhalt der Datei "api.js" aus diesem Repository in das Apps Script. Speichere das "code.gs" und klicke das "ausführen". Google wird nach Erlaubnis für den Zugriff fragen von einer Unbekannten Applikation. Diese muss erlaubt werden, damit der Zugriff via Twine klappt. Danach nochmal auf "ausführen" klicken. Jetzt sollte unten stehen, dass es erfolgreich war. 
 # Twine-Google-Sheet-API
 Manual for connecting a google sheet to a Twine Story allowing to show variables of different instances online
 
