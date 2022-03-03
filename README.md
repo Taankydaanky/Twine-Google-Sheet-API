@@ -21,6 +21,11 @@ Die Twine Vorlage runterladen und in dem Java Script die Ziel Adresse anpassen (
 Wenn jetzt die Twine Story gestartet wird, sollte eine Neue Zeile geschrieben werden und die Punkte aktualisiert werden. 
 Nun kann die Story so angepasst werden wie die Aktualisierung der Punkte benötigt wird.
 
+# HINWEISE
+Falls der Browser einen CORS Error in der Konsole anzeigt, liegt es wahrscheinlich daran, dass Addons im Browser aktiviert sind, die die Kommunikation zwischen Browser und Spreadsheet blockieren bzw. verschleiern.  
+Gerne die Kommentare in den Skripten beachten, falls noch fragen offen sind oder hier fragen.
+
+
 # ENGLISCH WIP
 # Twine-Google-Sheet-API
 Manual for connecting a google sheet to a Twine Story allowing to show variables of different instances online
